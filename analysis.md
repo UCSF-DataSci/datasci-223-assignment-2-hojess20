@@ -9,6 +9,7 @@ For data cleaning, I filtered out implausible BMI values (<10 or >60) to remove 
 - Normal: 18.5 ≤ BMI < 25  
 - Overweight: 25 ≤ BMI < 30  
 - Obese: 30 ≤ BMI ≤ 60  
+
 And finally, for each BMI cohort, I calculated:
 - Average glucose level (`avg_glucose`)
 - Total number of patients (`patient_count`)
